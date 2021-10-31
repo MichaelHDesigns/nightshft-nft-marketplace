@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-Black';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/Poppins-Black.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Poppins-Regular';
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #111115;
+    min-height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #f1f1f1;
+    background: #131313;
+}
+
+::-moz-selection {
+    color: #f1f1f1;
+    background: #131313;
+}
+
+h1 {
+    font-family: 'Poppins-Black';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,1 @@
+export const SET_FILTERED_ITEMS = 'SET_FILTERED_ITEMS'
